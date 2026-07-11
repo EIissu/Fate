@@ -3,13 +3,12 @@
 
   <h1>Fate / Fateful</h1>
 
-  <a href="https://dubziazctb2ck.cloudfront.net/Fateful-windows-x64.zip">
+  <a href="https://github.com/EIissu/Fate/releases">
     <img src="./assets/readme/download-button.svg" alt="Monochrome animated download portal" width="420" />
   </a>
 
   <p>
     <a href="https://github.com/EIissu/Fate/releases">GitHub Releases</a>
-    | <a href="https://dubziazctb2ck.cloudfront.net/version.json">Live Update Manifest</a>
   </p>
 </div>
 
@@ -22,11 +21,7 @@
 
 ## Download
 
-The official public download is hosted through S3 and CloudFront:
-
-```text
-https://dubziazctb2ck.cloudfront.net/Fateful-windows-x64.zip
-```
+The public download is available from the Releases page.
 
 The ZIP is intentionally clean and contains only:
 
@@ -36,10 +31,10 @@ Fateful.exe
 
 ## Release Notes
 
-- The in-app updater reads `version.json` from CloudFront.
+- The in-app updater checks the official release feed automatically.
 - Release packages are hash-verified before install.
 - Runtime art, font, and platform icons are embedded into `Fateful.exe`.
-- GitHub Releases are a mirror for convenience.
+- GitHub Releases provide the public download page.
 - Source code is not published in this repository.
 
 ## Public Repo Note
