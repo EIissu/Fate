@@ -19,11 +19,10 @@
 
 ## What This Is
 
-| Area | Purpose |
+| Versions | Purpose |
 | --- | --- |
-| Fate | The game project and future gameplay downloads. |
-| Fateful | The Windows hub used for login, profile, friends, themes, updates, and launching Fate. |
-| Releases | Public binary downloads for players. |
+| Fate | Game. |
+| Fateful | Hub for Fate that houses Stats, Wiki, Achievements, and Game History. |
 
 ## Download
 
