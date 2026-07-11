@@ -13,8 +13,6 @@
     <a href="https://github.com/EIissu/Fate/releases">GitHub Releases</a>
     | <a href="https://dubziazctb2ck.cloudfront.net/version.json">Live Update Manifest</a>
   </p>
-
-  <img src="./assets/readme/signal-strip.svg" alt="Animated monochrome star field strip" width="100%" />
 </div>
 
 ## What This Is
