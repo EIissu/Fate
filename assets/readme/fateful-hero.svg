@@ -28,6 +28,12 @@
     <clipPath id="frame">
       <rect x="24" y="24" width="1152" height="372" rx="28" />
     </clipPath>
+    <clipPath id="bigPlanetClip">
+      <circle cx="500" cy="210" r="58" />
+    </clipPath>
+    <clipPath id="smallPlanetClip">
+      <circle cx="720" cy="212" r="34" />
+    </clipPath>
   </defs>
 
   <rect width="1200" height="420" fill="#000" />
@@ -86,10 +92,25 @@
     </g>
 
     <g opacity="0.82">
-      <circle cx="500" cy="210" r="58" fill="#dcdcdc" />
-      <circle cx="524" cy="192" r="58" fill="#000" />
-      <circle cx="720" cy="212" r="34" fill="#f1f1f1" opacity="0.78" />
-      <circle cx="736" cy="202" r="34" fill="#000" />
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 500 210" to="360 500 210" dur="18s" repeatCount="indefinite" />
+        <circle cx="500" cy="210" r="58" fill="#dcdcdc" />
+        <g clip-path="url(#bigPlanetClip)" fill="none" stroke="#fff" stroke-opacity="0.24" stroke-width="3">
+          <path d="M438 188 C474 176, 524 176, 562 190" />
+          <path d="M432 212 C472 226, 526 226, 568 212" />
+          <path d="M444 238 C484 252, 526 250, 560 236" />
+        </g>
+        <circle cx="524" cy="192" r="58" fill="#000" />
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360 720 212" to="0 720 212" dur="12s" repeatCount="indefinite" />
+        <circle cx="720" cy="212" r="34" fill="#f1f1f1" opacity="0.78" />
+        <g clip-path="url(#smallPlanetClip)" fill="none" stroke="#fff" stroke-opacity="0.22" stroke-width="2">
+          <path d="M684 200 C704 192, 732 192, 756 202" />
+          <path d="M682 218 C704 226, 734 226, 758 216" />
+        </g>
+        <circle cx="736" cy="202" r="34" fill="#000" />
+      </g>
     </g>
 
     <path d="M-120 330 C180 272, 338 382, 606 314 S1006 250,1320 326" fill="none" stroke="#fff" stroke-opacity="0.14" stroke-width="2" stroke-dasharray="2 14">
