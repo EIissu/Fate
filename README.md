@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./assets/readme/fateful-hero.svg" alt="Animated Fateful neon orbit banner" width="100%" />
+  <img src="./assets/readme/fateful-hero.svg" alt="Animated monochrome space banner" width="100%" />
 
   <h1>Fate / Fateful</h1>
 
   <p><strong>Fate</strong> is the game. <strong>Fateful</strong> is the hub, launcher, account shell, and update bridge.</p>
 
   <a href="https://dubziazctb2ck.cloudfront.net/Fateful-windows-x64.zip">
-    <img src="./assets/readme/download-button.svg" alt="Download Fateful Hub" width="420" />
+    <img src="./assets/readme/download-button.svg" alt="Monochrome animated download portal" width="420" />
   </a>
 
   <p>
@@ -14,7 +14,7 @@
     | <a href="https://dubziazctb2ck.cloudfront.net/version.json">Live Update Manifest</a>
   </p>
 
-  <img src="./assets/readme/signal-strip.svg" alt="Animated release signal strip" width="100%" />
+  <img src="./assets/readme/signal-strip.svg" alt="Animated monochrome star field strip" width="100%" />
 </div>
 
 ## What This Is
