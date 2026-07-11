@@ -3,8 +3,6 @@
 
   <h1>Fate / Fateful</h1>
 
-  <p><strong>Fate</strong> is the game. <strong>Fateful</strong> is the hub, launcher, account shell, and update bridge.</p>
-
   <a href="https://dubziazctb2ck.cloudfront.net/Fateful-windows-x64.zip">
     <img src="./assets/readme/download-button.svg" alt="Monochrome animated download portal" width="420" />
   </a>
