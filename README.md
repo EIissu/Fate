@@ -45,7 +45,7 @@ GitHub automatically shows `Source code (zip)` and `Source code (tar.gz)` on eve
 
 | Channel | Platform | Package |
 | --- | --- | --- |
-| Release | Windows x64 | `Fateful-windows-x64.zip` |
+| Release | Windows x64 | `Fateful.zip` |
 
 <div align="center">
   <sub>Built for Fate. Shipped through Fateful.</sub>
