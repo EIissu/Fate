@@ -31,11 +31,11 @@ Fateful.exe
 
 ## Release Notes
 
-- The in-app updater checks the official release feed automatically.
-- Release packages are hash-verified before install.
-- Runtime art, font, and platform icons are embedded into `Fateful.exe`.
-- GitHub Releases provide the public download page.
-- Source code is not published in this repository.
+- Expanded hub sections for Stats, Wiki, Achievements, and Game History.
+- Added a cleaner theme browser with smooth animated scrolling.
+- Added profile, friends, and account-focused hub improvements.
+- Improved visual polish across the launcher interface.
+- Continued groundwork for the Fate game experience.
 
 ## Public Repo Note
 
