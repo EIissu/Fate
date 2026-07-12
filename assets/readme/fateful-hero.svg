@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Animated monochrome space banner</title>
-  <desc id="desc">A black and white animated space scene with drifting stars, one large pulsing planet, and scanlines.</desc>
+  <desc id="desc">A black and white animated space scene with drifting stars, a centered black hole, and scanlines.</desc>
   <defs>
     <radialGradient id="void" cx="50%" cy="45%" r="80%">
       <stop offset="0%" stop-color="#1b1b1b" />
@@ -10,6 +10,11 @@
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.34" />
       <stop offset="38%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="blackHoleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.36" />
+      <stop offset="42%" stop-color="#ffffff" stop-opacity="0.12" />
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </radialGradient>
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
@@ -61,27 +66,26 @@
     </g>
 
     <g filter="url(#soft)">
-      <circle cx="1030" cy="334" r="188" fill="#fff" opacity="0.10">
-        <animate attributeName="r" values="174;204;174" dur="5.6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.06;0.16;0.06" dur="5.6s" repeatCount="indefinite" />
+      <circle cx="600" cy="210" r="166" fill="url(#blackHoleGlow)" opacity="0.72">
+        <animate attributeName="r" values="148;178;148" dur="5.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.52;0.84;0.52" dur="5.8s" repeatCount="indefinite" />
       </circle>
     </g>
 
-    <g opacity="0.88" filter="url(#glow)">
-      <circle cx="1030" cy="334" r="150" fill="#d9d9d9">
-        <animate attributeName="r" values="144;156;144" dur="5.6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.76;0.96;0.76" dur="5.6s" repeatCount="indefinite" />
+    <g filter="url(#glow)">
+      <ellipse cx="600" cy="210" rx="188" ry="34" fill="none" stroke="#fff" stroke-opacity="0.34" stroke-width="3">
+        <animate attributeName="rx" values="172;202;172" dur="5.8s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.20;0.44;0.20" dur="5.8s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="600" cy="210" rx="118" ry="18" fill="#fff" opacity="0.10">
+        <animate attributeName="rx" values="102;132;102" dur="5.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.05;0.18;0.05" dur="5.8s" repeatCount="indefinite" />
+      </ellipse>
+      <circle cx="600" cy="210" r="74" fill="#000" stroke="#fff" stroke-opacity="0.18" stroke-width="2">
+        <animate attributeName="r" values="68;78;68" dur="5.8s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.10;0.26;0.10" dur="5.8s" repeatCount="indefinite" />
       </circle>
-      <path d="M892 286 C972 252, 1074 252, 1166 294" fill="none" stroke="#fff" stroke-opacity="0.20" stroke-width="4">
-        <animate attributeName="stroke-opacity" values="0.12;0.28;0.12" dur="5.6s" repeatCount="indefinite" />
-      </path>
-      <path d="M878 338 C982 376, 1084 376, 1184 334" fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="4">
-        <animate attributeName="stroke-opacity" values="0.08;0.22;0.08" dur="5.6s" repeatCount="indefinite" />
-      </path>
-      <circle cx="1090" cy="278" r="150" fill="#000" opacity="0.72">
-        <animate attributeName="r" values="144;156;144" dur="5.6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.62;0.78;0.62" dur="5.6s" repeatCount="indefinite" />
-      </circle>
+      <circle cx="600" cy="210" r="42" fill="#000" opacity="1" />
     </g>
 
     <path d="M-120 330 C180 272, 338 382, 606 314 S1006 250,1320 326" fill="none" stroke="#fff" stroke-opacity="0.14" stroke-width="2" stroke-dasharray="2 14">
