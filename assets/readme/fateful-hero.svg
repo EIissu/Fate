@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Animated monochrome space banner</title>
-  <desc id="desc">A black and white animated space scene with drifting stars, horizontal moon silhouettes, and scanlines.</desc>
+  <desc id="desc">A black and white animated space scene with drifting stars, one large pulsing planet, and scanlines.</desc>
   <defs>
     <radialGradient id="void" cx="50%" cy="45%" r="80%">
       <stop offset="0%" stop-color="#1b1b1b" />
@@ -27,12 +27,6 @@
     </pattern>
     <clipPath id="frame">
       <rect x="24" y="24" width="1152" height="372" rx="28" />
-    </clipPath>
-    <clipPath id="bigPlanetClip">
-      <circle cx="500" cy="210" r="58" />
-    </clipPath>
-    <clipPath id="smallPlanetClip">
-      <circle cx="720" cy="212" r="34" />
     </clipPath>
   </defs>
 
@@ -67,38 +61,27 @@
     </g>
 
     <g filter="url(#soft)">
-      <circle cx="482" cy="210" r="76" fill="#fff" opacity="0.12">
-        <animate attributeName="opacity" values="0.08;0.18;0.08" dur="6s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="728" cy="210" r="58" fill="#fff" opacity="0.08">
-        <animate attributeName="opacity" values="0.04;0.14;0.04" dur="7.4s" repeatCount="indefinite" />
+      <circle cx="1030" cy="334" r="188" fill="#fff" opacity="0.10">
+        <animate attributeName="r" values="174;204;174" dur="5.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.06;0.16;0.06" dur="5.6s" repeatCount="indefinite" />
       </circle>
     </g>
 
-    <g opacity="0.82">
-      <g>
-        <circle cx="500" cy="210" r="58" fill="#dcdcdc" />
-        <g clip-path="url(#bigPlanetClip)" fill="none" stroke="#fff" stroke-opacity="0.24" stroke-width="3">
-          <path d="M438 188 C474 176, 524 176, 562 190" />
-          <path d="M432 212 C472 226, 526 226, 568 212" />
-          <path d="M444 238 C484 252, 526 250, 560 236" />
-        </g>
-        <circle cx="544" cy="210" r="58" fill="#000">
-          <animate attributeName="cx" values="544;520;456;480;544" dur="18s" repeatCount="indefinite" />
-          <animate attributeName="cy" values="210;202;210;218;210" dur="18s" repeatCount="indefinite" />
-        </circle>
-      </g>
-      <g>
-        <circle cx="720" cy="212" r="34" fill="#f1f1f1" opacity="0.78" />
-        <g clip-path="url(#smallPlanetClip)" fill="none" stroke="#fff" stroke-opacity="0.22" stroke-width="2">
-          <path d="M684 200 C704 192, 732 192, 756 202" />
-          <path d="M682 218 C704 226, 734 226, 758 216" />
-        </g>
-        <circle cx="750" cy="212" r="34" fill="#000">
-          <animate attributeName="cx" values="750;734;690;706;750" dur="12s" repeatCount="indefinite" />
-          <animate attributeName="cy" values="212;205;212;219;212" dur="12s" repeatCount="indefinite" />
-        </circle>
-      </g>
+    <g opacity="0.88" filter="url(#glow)">
+      <circle cx="1030" cy="334" r="150" fill="#d9d9d9">
+        <animate attributeName="r" values="144;156;144" dur="5.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.76;0.96;0.76" dur="5.6s" repeatCount="indefinite" />
+      </circle>
+      <path d="M892 286 C972 252, 1074 252, 1166 294" fill="none" stroke="#fff" stroke-opacity="0.20" stroke-width="4">
+        <animate attributeName="stroke-opacity" values="0.12;0.28;0.12" dur="5.6s" repeatCount="indefinite" />
+      </path>
+      <path d="M878 338 C982 376, 1084 376, 1184 334" fill="none" stroke="#fff" stroke-opacity="0.16" stroke-width="4">
+        <animate attributeName="stroke-opacity" values="0.08;0.22;0.08" dur="5.6s" repeatCount="indefinite" />
+      </path>
+      <circle cx="1090" cy="278" r="150" fill="#000" opacity="0.72">
+        <animate attributeName="r" values="144;156;144" dur="5.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.62;0.78;0.62" dur="5.6s" repeatCount="indefinite" />
+      </circle>
     </g>
 
     <path d="M-120 330 C180 272, 338 382, 606 314 S1006 250,1320 326" fill="none" stroke="#fff" stroke-opacity="0.14" stroke-width="2" stroke-dasharray="2 14">
