@@ -19,6 +19,12 @@
 | Fate | Game. |
 | Fateful | Hub for Fate that houses Stats, Wiki, Achievements, and Game History. |
 
+## Fateful Stack
+
+<div align="center">
+  <img src="./assets/readme/language-labels.svg" alt="Fateful stack labels: C++20, Win32 API, PowerShell, Resource Script, JSON" width="100%" />
+</div>
+
 ## Download
 
 The public download is available from the Releases page.
