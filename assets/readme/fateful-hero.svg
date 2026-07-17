@@ -15,7 +15,6 @@
     </clipPath>
   </defs>
 
-  <rect width="1200" height="420" fill="#000" />
   <g clip-path="url(#frame)">
     <rect width="1200" height="420" fill="url(#void)" />
 
