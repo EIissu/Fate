@@ -8,6 +8,14 @@
   </a>
 </div>
 
+## Latest Download
+
+The latest Windows x64 build is available from the Releases page.
+
+```text
+Fateful.zip -> Fateful.exe
+```
+
 ## What This Is
 
 | Versions | Purpose |
@@ -21,16 +29,6 @@
   <img src="./assets/readme/language-labels.svg" alt="Fateful stack labels: C++20, Win32 API, PowerShell, Resource Script, JSON" width="100%" />
 </div>
 
-## Download
-
-The public download is available from the Releases page.
-
-The ZIP is intentionally clean and contains only:
-
-```text
-Fateful.exe
-```
-
 ## Release Notes
 
 - Expanded hub sections for Stats, Wiki, Achievements, and Game History.
@@ -38,6 +36,14 @@ Fateful.exe
 - Added profile, friends, and account-focused hub improvements.
 - Improved visual polish across the launcher interface.
 - Continued groundwork for the Fate game experience.
+
+## Screenshots
+
+Coming soon as the hub and Fate experience continue to evolve.
+
+## Security
+
+Please report security concerns privately to the project owner instead of posting public issues.
 
 ## Public Repo Note
 
