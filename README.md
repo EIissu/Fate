@@ -6,10 +6,6 @@
   <a href="https://github.com/EIissu/Fate/releases">
     <img src="./assets/readme/download-button.svg" alt="Monochrome animated download portal" width="420" />
   </a>
-
-  <p>
-    <a href="https://github.com/EIissu/Fate/releases">GitHub Releases</a>
-  </p>
 </div>
 
 ## What This Is

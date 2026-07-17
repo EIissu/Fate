@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="150" viewBox="0 0 720 150" role="img" aria-labelledby="title desc">
   <title id="title">Animated monochrome download portal</title>
-  <desc id="desc">A black and white wordless animated portal button with stars and a downward arrow symbol.</desc>
+  <desc id="desc">A black and white wordless animated portal button with stars and a rotating center.</desc>
   <defs>
     <filter id="glow" x="-50%" y="-90%" width="200%" height="280%">
       <feGaussianBlur stdDeviation="4" result="blur" />
@@ -29,9 +29,10 @@
     <circle r="26" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="2" stroke-dasharray="4 9">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite" />
     </circle>
-    <path d="M-7 -18 H7 V8 H22 L0 29 -22 8 H-7 Z" fill="#fff">
-      <animateTransform attributeName="transform" type="translate" values="0 -4;0 5;0 -4" dur="1.7s" repeatCount="indefinite" />
-    </path>
+    <circle r="8" fill="#fff" opacity="0.72">
+      <animate attributeName="r" values="6;10;6" dur="1.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.42;0.86;0.42" dur="1.7s" repeatCount="indefinite" />
+    </circle>
   </g>
 
   <g fill="#fff" opacity="0.75">
