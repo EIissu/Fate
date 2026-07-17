@@ -4,7 +4,7 @@
   <h1>Fate / Fateful</h1>
 
   <a href="https://github.com/EIissu/Fate/releases">
-    <img src="./assets/readme/download-button.svg" alt="Monochrome animated download portal" width="420" />
+    <img src="./assets/readme/download-button.svg" alt="Animated monochrome solar system release link" width="100%" />
   </a>
 </div>
 
