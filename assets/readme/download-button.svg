@@ -19,7 +19,7 @@
   </defs>
 
   <rect width="1200" height="170" rx="24" fill="#000" />
-  <rect x="12" y="10" width="1176" height="150" rx="22" fill="#050505" stroke="#fff" stroke-opacity="0.56" stroke-width="2" />
+  <rect x="12" y="10" width="1176" height="150" rx="22" fill="#050505" />
   <g clip-path="url(#innerFrame)">
     <rect x="0" y="0" width="1200" height="170" fill="url(#dust)" opacity="0.85">
       <animateTransform attributeName="transform" type="translate" values="0 0;-42 0;0 0" dur="16s" repeatCount="indefinite" />
@@ -73,10 +73,5 @@
       </g>
     </g>
 
-    <rect x="0" y="0" width="1200" height="170" fill="none" stroke="#fff" stroke-opacity="0.08" stroke-width="20" />
   </g>
-  <rect x="22" y="18" width="1156" height="134" rx="20" fill="none" stroke="#fff" stroke-opacity="0.34" stroke-width="1.5" />
-  <rect x="32" y="28" width="1136" height="114" rx="15" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="16 14">
-    <animate attributeName="stroke-dashoffset" values="0;-120" dur="6s" repeatCount="indefinite" />
-  </rect>
 </svg>
