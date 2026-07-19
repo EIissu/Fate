@@ -21,20 +21,23 @@ Fateful.zip -> Fateful.exe
 | Versions | Purpose |
 | --- | --- |
 | Fate | Game. |
-| Fateful | Hub for Fate that houses Stats, Wiki, Achievements, and Game History. |
+| Fateful | Windows hub for Fate with account login, profile search, friends, requests, achievements, match history, settings, and launch controls. |
 
 ## Fateful Stack
 
 <div align="center">
-  <img src="./assets/readme/language-labels.svg" alt="Fateful stack labels: C++20, Win32 API, PowerShell, Resource Script, JSON" width="100%" />
+  <img src="./assets/readme/language-labels.svg" alt="Fateful stack labels: C++20, Win32 API, WebView2, HTML/CSS/JS, PowerShell, JSON" width="100%" />
 </div>
+
+Fateful uses native C++ for authentication, updates, launch control, settings persistence, and secure actions. The login and dashboard surfaces are now WebView2-driven HTML/CSS/JavaScript views styled around an animated space interface.
 
 ## Release Notes
 
-- Expanded hub sections for Stats, Wiki, Achievements, and Game History.
-- Added a cleaner theme browser with smooth animated scrolling.
-- Added profile, friends, and account-focused hub improvements.
-- Improved visual polish across the launcher interface.
+- Added a WebView2-powered animated login flow with a smoother startup intro.
+- Rebuilt the dashboard around a space-themed glass UI with Career, Match History, Achievements, Friends, and bottom launch/settings controls.
+- Added scrollable generated Match History and Achievements panels for the new dashboard layout.
+- Moved settings into an in-page control deck with theme, status, update, and account-link options.
+- Restyled native notice/toast popups to better match the new hub design.
 - Continued groundwork for the Fate game experience.
 
 ## Screenshots
