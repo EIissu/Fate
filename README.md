@@ -21,7 +21,7 @@ Fateful.zip -> Fateful.exe
 | Versions | Purpose |
 | --- | --- |
 | Fate | Game. |
-| Fateful | Windows hub for Fate with account login, profile search, friends, requests, achievements, match history, settings, and launch controls. |
+| Fateful | Windows hub for Fate with account login and an animated WebView2 space shell while the dashboard experience is being rebuilt. |
 
 ## Fateful Stack
 
@@ -29,15 +29,14 @@ Fateful.zip -> Fateful.exe
   <img src="./assets/readme/language-labels.svg" alt="Fateful stack labels: C++20, Win32 API, WebView2, HTML/CSS/JS, PowerShell, JSON" width="100%" />
 </div>
 
-Fateful uses native C++ for authentication, updates, launch control, settings persistence, and secure actions. The login and dashboard surfaces are now WebView2-driven HTML/CSS/JavaScript views styled around an animated space interface.
+Fateful uses native C++ for authentication, updates, launch control, settings persistence, and secure actions. The login surface and temporary hub shell are WebView2-driven HTML/CSS/JavaScript views styled around an animated space interface.
 
 ## Release Notes
 
-- Added a WebView2-powered animated login flow with a smoother startup intro.
-- Rebuilt the dashboard around a space-themed glass UI with Career, Match History, Achievements, Friends, and bottom launch/settings controls.
-- Added scrollable generated Match History and Achievements panels for the new dashboard layout.
-- Moved settings into an in-page control deck with theme, status, update, and account-link options.
-- Restyled native notice/toast popups to better match the new hub design.
+- Published `0.1.38` with the hub temporarily reduced to the animated space background while dashboard work continues.
+- Removed the visible dashboard panels, search, settings deck, and launch controls from the WebView hub shell for this interim build.
+- Kept native authentication, updates, settings persistence, and WebView theme-color sync intact.
+- Kept the WebView2-powered animated login flow with the smoother startup intro.
 - Continued groundwork for the Fate game experience.
 
 ## Screenshots
