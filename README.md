@@ -33,10 +33,10 @@ Fateful uses native C++ for authentication, updates, launch control, settings pe
 
 ## Release Notes
 
-- Published `0.1.39` with a black-hole canvas particle background for the temporary hub shell.
-- Removed the previous shooting-star/comet effect while keeping the hub dashboard panels, search, settings deck, and launch controls hidden for this interim build.
+- Published `0.1.40` with a new animated login wormhole background inspired by black-hole particle motion.
+- Replaced the old login dust/orbit/planet layers with a theme-synced canvas nebula behind the existing login forms.
+- Kept the temporary hub black-hole background and hidden dashboard controls intact for this interim build.
 - Kept native authentication, updates, settings persistence, and WebView theme-color sync intact.
-- Kept the WebView2-powered animated login flow with the smoother startup intro.
 - Continued groundwork for the Fate game experience.
 
 ## Screenshots
