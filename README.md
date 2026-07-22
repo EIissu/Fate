@@ -3,7 +3,7 @@
 
   <h1>Fate / Fateful</h1>
 
-  <a href="https://github.com/EIissu/Fate/releases">
+  <a href="https://github.com/Ansanety/Fate/releases">
     <img src="./assets/readme/download-button.svg" alt="Animated monochrome star field release link" width="100%" />
   </a>
 </div>
